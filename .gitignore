@@ -6,6 +6,7 @@
 /var/
 /vendor/
 .env.php
+.env
 var/
 vendor/
 .idea/
