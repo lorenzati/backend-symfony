@@ -27,7 +27,7 @@ php bin/console doctrine:migrations:migrate
 mkdir -p config/jwt
 php bin/console lexik:jwt:generate-keypair
 
-7. **Iniciar
+7. Listo a probar en postman!
 
 Register:
 /api/register
