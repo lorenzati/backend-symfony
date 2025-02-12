@@ -1,3 +1,33 @@
+Requisitos Previos
+PHP versión >= 8.1
+Composer
+MySQL
+Git
+
+Pasos para Instalar y Configurar el Proyecto
+1. Clonar el Repositorio
+Primero, clona el repositorio desde GitHub a tu máquina local
+
+2. Instalar las Dependencias
+Una vez que hayas clonado el repositorio, instala las dependencias utilizando Composer:
+composer install
+
+3. Configurar las Variables de Entorno
+.env.dev
+
+4. Crear la Base de Datos
+php bin/console doctrine:database:create
+
+5. Generar y Aplicar las Migraciones
+php bin/console make:migration
+php bin/console doctrine:migrations:migrate
+
+6. Generar las Claves JWT
+
+mkdir -p config/jwt
+php bin/console lexik:jwt:generate-keypair
+
+7. **Iniciar
 
 Register:
 /api/register
