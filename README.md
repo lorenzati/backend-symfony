@@ -32,6 +32,7 @@ Crear Empleado:
 
 Lista de Empleados:
 /api/employee/
+
 ![image](https://github.com/user-attachments/assets/1a6e813d-583d-40ee-8bca-5eaa8643ff64)
 
 Editar Empleado:
@@ -48,5 +49,6 @@ Editar Empleado:
 
 Eliminar Empleado:
 /api/employee/16
+
 ![image](https://github.com/user-attachments/assets/fafd52ff-466b-48c5-8dd8-9c83598bd8c7)
 
